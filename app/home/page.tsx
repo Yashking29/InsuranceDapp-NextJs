@@ -1,11 +1,11 @@
 "use client"
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import Navbar from '../components/NavBar';
-import HeroSection from '../components/HeroSection';
-import InsurancePlans from '../components/InsurancePlans';
-import ConnectWallet from '../components/ConnectWallet';
-import Footer from '../components/Footer';
+import Navbar from '../../components/NavBar';
+import HeroSection from '../../components/HeroSection';
+import InsurancePlans from '../../components/InsurancePlans';
+import ConnectWallet from '../../components/ConnectWallet';
+import Footer from '../../components/Footer';
 
 export default function Home() {
   const [isConnected, setIsConnected] = useState(false);
