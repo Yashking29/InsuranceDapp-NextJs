@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar isConnected={isConnected} account={account} />
+      <Navbar isConnected={isConnected} account={account} onConnect={handleConnect} />
       
       <main className="container mx-auto px-4 py-8 flex-grow">
         {!isConnected ? (

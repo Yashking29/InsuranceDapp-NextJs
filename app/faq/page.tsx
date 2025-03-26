@@ -2,7 +2,7 @@
 "use client"
 import { useState } from 'react';
 import Head from 'next/head';
-import Navbar from '../../components/Navbar';
+import Navbar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 
 export default function FAQ() {
@@ -63,14 +63,14 @@ export default function FAQ() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-50 to-gray-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-50 to-gray-100 text-gray-500">
       <Head>
         <title>Frequently Asked Questions - DeFi Insurance</title>
         <meta name="description" content="Find answers to common questions about our insurance platform" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar isConnected={isConnected} account={account} />
+      <Navbar isConnected={isConnected} account={account} onConnect={handleConnect} />
       
       <main className="container mx-auto px-4 py-8 flex-grow">
         <div className="max-w-3xl mx-auto">

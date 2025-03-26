@@ -1,0 +1,58 @@
+console.log(policy_Details)
+const policy_Details = await contract.getPolicyDetails(1)
+console.log(userPolicies_2)
+const userPolicies_2 = await contract.getUserPolicies('0x2C5970AEff05dFf6Af9dB2aca2E4D595553Ca74B')
+const userPolicies = await contract.getUserPolicies(0x2C5970AEff05dFf6Af9dB2aca2E4D595553Ca74B)
+console.log(balance)
+const balance = await contract.getContractBalance()
+console.log(policyManager)
+const policyManager = await contract.policyManager()
+const policies_10 = await contract.userPolicies(userAddress);
+userAddress
+const policies_3 = await contract.userPolicies(userAddress);
+const userAddress = "0x2C5970AEff05dFf6Af9dB2aca2E4D595553Ca74B";
+contract
+const policies_2 = await contract.userPolicies(0x2C5970AEff05dFf6Af9dB2aca2E4D595553Ca74B);
+console.log(policies);
+const policies = await contract.userPolicies(userAddress);
+(await contract.userPolicies("0x2C5970AEff05dFf6Af9dB2aca2E4D595553Ca74B")).toString()
+(await contract.userPolicies(0x2C5970AEff05dFf6Af9dB2aca2E4D595553Ca74B)).toString()
+(await contract.userPolicies["0x2C5970AEff05dFf6Af9dB2aca2E4D595553Ca74B"]()).toString()
+(await contract.userPolicies()).toString()
+(await contract.policyCounter()).toString()
+(await contract.totalPremiumsCollected()).toString()
+(await contract.policyCounter()).toString()
+(await contract.owner()).toString()  
+console.log(contract)
+const contract = await ethers.getContractAt("DecentralizedInsurance", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
+quit
+exit
+exit()
+quit()
+clear
+(await contract.contractPaused()).toString() 
+(await contract.owner()).toString() 
+const owner = await contract.owner()
+const totalPremiums_2 = await contract.totalPremiumsCollected();
+contract
+const totalPremiums = await contract.totalPremiumsCollected();
+console.log(contract)
+const contract = await ethers.getContractAt("DecentralizedInsurance", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+console.log("Current Block Hash:", block.hash);
+const block = await ethers.provider.getBlock("latest");
+console.log("Current Block Number:", blockNumber);
+const blockNumber = await ethers.provider.getBlockNumber();
+console.log(contract)
+const contract = await ethers.getContractAt("DecentralizedInsurance", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+console.log(accounts)
+const accounts = await ethers.getSigners();
+contract
+console.log(ae)
+const ae = await contract.userPolicies['0x2C5970AEff05dFf6Af9dB2aca2E4D595553Ca74B']
+const a = await contract.    mapping(address => uint256[]) public userPolicies;
+console.log(policy)
+const policy = await contract.policyCounter()
+console.log(premiums)
+const premiums =  await contract.totalPremiumsCollected()
+const balance =  await contract.getBalance()
+const contract = await (await ethers.getContractFactory("DecentralizedInsurance")).attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");

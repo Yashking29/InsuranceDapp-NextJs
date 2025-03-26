@@ -17,14 +17,14 @@ export default function Plans() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-50 to-gray-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-50 to-gray-100 text-gray-500">
       <Head>
         <title>Insurance Plans - DeFi Insurance</title>
         <meta name="description" content="Explore our range of insurance plans for your digital assets" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar isConnected={isConnected} account={account} />
+      <Navbar isConnected={isConnected} account={account} onConnect={handleConnect} />
       
       <main className="container mx-auto px-4 py-8 flex-grow">
         <h1 className="text-4xl font-bold text-center mb-8">Insurance Plans</h1>
